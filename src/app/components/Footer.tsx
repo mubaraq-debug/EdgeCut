@@ -7,9 +7,6 @@ import {
   FaTwitter,
   FaInstagram,
   FaLinkedin,
-  FaPinterestSquare,
-  FaPinterest,
-  FaLine,
 } from "react-icons/fa";
 import "animate.css";
 
@@ -23,7 +20,7 @@ const footerLinks = [
 
 export default function Footer() {
   return (
-    <footer className="flex flex-col gap-20 bg-black text-white m-10 p-10">
+    <footer className="flex flex-col gap-20 bg-black text-white m-10 p-10 sm:p-5">
       <header>
         <Link
           href="/"
@@ -33,25 +30,25 @@ export default function Footer() {
         </Link>
       </header>
 
-      <div className="foot-nav flex items-start justify-between">
+      <div className="foot-nav flex sm:flex-wrap sm:gap-10 items-start justify-between">
         {/* contact */}
         <div className="left flex flex-col gap-5">
           <div className="contact">
-            <h3 className="capitalize text-[18px]">Contact</h3>
+            <h3 className="capitalize text-[18px] sm:text-[16px]">Contact</h3>
             <div className="detail flex items-center gap-2">
               <FaPhoneAlt className="animate_animated animate-pulse" />
               <p>+234 814 828 3853</p>
             </div>
           </div>
           <div className="email">
-            <h3 className="capitalize text-[18px]">Email</h3>
+            <h3 className="capitalize text-[18px] sm:text-[16px]">Email</h3>
             <div className="detail flex items-center gap-2">
               <FaEnvelope className="animate_animated animate-pulse" />
               <p>mubaraqmuhammad06@gmail.com</p>
             </div>
           </div>
           <div className="loc">
-            <h3 className="capitalize text-[18px]">Location</h3>
+            <h3 className="capitalize text-[18px] sm:text-[16px]">Location</h3>
             <div className="detail flex items-center gap-2">
               <FaMapMarkerAlt className="animate_animated animate-pulse" />
               <p>Lagos, Nigeria</p>
@@ -61,7 +58,7 @@ export default function Footer() {
 
         {/* links */}
         <div className="links">
-          <h3 className="text-[18px] uppercase pb-4">Quick Links</h3>
+          <h3 className="text-[18px] sm:text-[16px] uppercase pb-4">Quick Links</h3>
           {footerLinks.map((link) => {
             return (
               <Link
@@ -77,7 +74,7 @@ export default function Footer() {
 
         {/* newsletter */}
         <div className="newsletter">
-          <h3 className="text-[18px] uppercase pb-4">
+          <h3 className="text-[18px] sm:text-[16px] uppercase pb-4">
             Sign up to our newsletter
           </h3>
           <form action="" className="flex flex-col gap-2 items-start">
