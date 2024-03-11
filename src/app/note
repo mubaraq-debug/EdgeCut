@@ -1,0 +1,33 @@
+<!-- import Link from "next/link";
+import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
+import "animate.css";
+
+const footerLinks = [
+  { name: "Home", href: "/home" },
+  { name: "About", href: "/about" },
+  { name: "Furnitures", href: "/furnitures" },
+  { name: "Blog", href: "/blog" },
+  { name: "Contact Us", href: "/contact" },
+];
+
+export default function Footer() {
+  return (
+    <footer className="mx-10 px-5 py-10 bg-black text-white flex items-start justify-around">
+      <div className="contact">
+       
+      <div className="links flex flex-col gap-3">
+        <h3 className="text-2xl">Quick Links</h3>
+        {footerLinks.map((link) => {
+          return (
+            <Link href={link.href} key={link.name}>
+              {link.name}
+            </Link>
+          );
+        })}
+      </div>
+      <div className="newsletter">
+
+      </div>
+    </footer>
+  );
+} -->
