@@ -77,7 +77,7 @@ export default function Footer() {
           <h3 className="text-[18px] sm:text-[16px] uppercase pb-4">
             Sign up to our newsletter
           </h3>
-          <form action="" className="flex flex-col gap-2 items-start">
+          <form action="" className="flex flex-col gap-5 items-start">
             <input
               type="email"
               name="user-email"
@@ -88,28 +88,28 @@ export default function Footer() {
             <input
               type="submit"
               value="Subscribe"
-              className="w-6/12 bg-custom-green text-white px-5 py-3 cursor-pointer"
+              className="w-6/12 bg-custom-green text-white px-5 py-3 cursor-pointer hover:bg-transparent hover:border hover:border-custom-green hover:text-custom-green"
             />
           </form>
           <div className="media pt-10 flex items-center gap-4">
-            <div className="border border-custom-green text-3xl rounded-md p-3 cursor-pointer">
+            <div className="border border-custom-green hover:border-custom-orange text-3xl rounded-md p-3 cursor-pointer">
               <Link href="/">
-                <FaFacebook className="text-custom-green" />
+                <FaFacebook className="text-custom-green hover:text-custom-orange" />
               </Link>
             </div>
-            <div className="border border-custom-green text-3xl rounded-md p-3 cursor-pointer">
+            <div className="border border-custom-green hover:border-custom-orange text-3xl rounded-md p-3 cursor-pointer">
               <Link href="/">
-                <FaTwitter className="text-custom-green" />
+                <FaTwitter className="text-custom-green hover:text-custom-orange" />
               </Link>
             </div>
-            <div className="border border-custom-green text-3xl rounded-md p-3 cursor-pointer">
+            <div className="border border-custom-green text-3xl hover:border-custom-orange rounded-md p-3 cursor-pointer">
               <Link href="/">
-                <FaInstagram className="text-custom-green" />
+                <FaInstagram className="text-custom-green hover:text-custom-orange" />
               </Link>
             </div>
-            <div className="border border-custom-green text-3xl rounded-md p-3 cursor-pointer">
+            <div className="border border-custom-green text-3xl hover:border-custom-orange rounded-md p-3 cursor-pointer">
               <Link href="/">
-                <FaLinkedin className="text-custom-green" />
+                <FaLinkedin className="text-custom-green hover:text-custom-orange" />
               </Link>
             </div>
           </div>
