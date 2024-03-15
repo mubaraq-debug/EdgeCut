@@ -21,10 +21,15 @@ const FurnitureCard: React.FC<FurnitureCardProps> = ({
         <Image src={image} alt="image" width={300} height={300} />
         <p className="pt-5 uppercase sm:text-base lg:text-2xl">{name}</p>
 
-        <div className="btm flex items-center justify-between pt-7">
-          <p><span className="text-custom-green">$</span>{price}</p>
+        <div className="btm flex items-center justify-between pt-5">
           <p>
-            <Link href='/' className="text-custom-green uppercase">{buy}</Link>
+            <span className="text-custom-green">$</span>
+            {price}
+          </p>
+          <p>
+            <Link href="/" className="text-custom-green uppercase">
+              {buy}
+            </Link>
           </p>
         </div>
       </div>
