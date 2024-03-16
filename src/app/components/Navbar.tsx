@@ -18,7 +18,7 @@ export default function Navbar() {
   
   const toggleMenu = () => {
     setIsOpen(!isOpen);
-    // console.log('clicked')
+    console.log('clicked')
   }
   return (
     <nav className="p-10 flex items-center justify-between">
