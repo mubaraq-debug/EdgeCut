@@ -1,3 +1,4 @@
+import AboutSection from "./AboutSection";
 import Furnitures from "./Furnitures";
 import HeroSection from "./Hero";
 import "./styles.css";
@@ -8,6 +9,7 @@ export default function Home() {
     <main className="main-body p-10">
      <HeroSection />
      <Furnitures />
+     <AboutSection />
     </main>
   );
 }
