@@ -1,4 +1,5 @@
 import AboutSection from "./AboutSection";
+import Blogs from "./Blogs";
 import Furnitures from "./Furnitures";
 import HeroSection from "./Hero";
 import "./styles.css";
@@ -10,6 +11,7 @@ export default function Home() {
      <HeroSection />
      <Furnitures />
      <AboutSection />
+     <Blogs />
     </main>
   );
 }
